@@ -24,6 +24,6 @@ funcionalidade;
 - Junto com o código desenvolvido, devem ser enviadas (respeitando a LGPD)
 as instruções de como executá-lo e os requerimentos necessários para tal.
 
-</br>
+
 ---
 > Rodar o código: python3 main.py --page=1 (insira o número da página que deseja visualizar)
