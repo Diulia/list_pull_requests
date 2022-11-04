@@ -26,4 +26,4 @@ as instruções de como executá-lo e os requerimentos necessários para tal.
 
 
 ---
-> Rodar o código: python3 main.py --page=1 (insira o número da página que deseja visualizar)
+> Rodar o código: python3 main.py --page=1 (insira o número da página que deseja visualizar) --project_path=(seu repositorio, ex: --project_path=tiangolo/fastapi)
