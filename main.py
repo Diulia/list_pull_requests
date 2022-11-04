@@ -14,7 +14,6 @@ if ( args.project_path == None):
     print("owner/repo required")
 else: 
     response = requests.get(f"https://api.github.com/repos/{args.project_path}/pulls?page={args.page}&per_page={args.per_page}&state=open")
-# response = requests.get('https:/api.github.com/repos/{OWNER}/{REPO}/pulls?state=open')
     for pr in response.json(): 
         print(pr['title'], pr['html_url'], "\n")
 

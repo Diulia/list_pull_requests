@@ -1,7 +1,0 @@
-version: "3.7"
-services:
-  servico_server:
-    build: "."
-    container_name: python-container
-    restart: always
-    

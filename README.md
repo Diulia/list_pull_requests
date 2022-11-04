@@ -26,4 +26,10 @@ as instruções de como executá-lo e os requerimentos necessários para tal.
 
 
 ---
-> Rodar o código: python3 main.py --page=1 (insira o número da página que deseja visualizar) --project_path=(seu repositorio, ex: --project_path=tiangolo/fastapi)
+> Buildar a imagem docker: docker build -t gt-api .
+> Rodar a app com o dockar: docker run -t gt-api --project_path=Diulia/list_pulll_requests
+
+Argumentos da app:
+- --project_path: Caminho do projeto no Github (usuário/repo)
+- page: Indexação da listagem
+- per_page: Quantidade de itens por página
